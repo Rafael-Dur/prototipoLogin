@@ -8,16 +8,15 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splashDHL.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#FFCC00"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/Logo_dhl.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/Logo_dhl.png"
       }
     },
     "web": {
