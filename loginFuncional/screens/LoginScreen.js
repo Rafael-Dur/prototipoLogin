@@ -53,7 +53,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#fff',
-    paddingHorizontal: 20,
   },
   logo: {
     marginBottom: 20,
@@ -77,8 +76,10 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 5,
     backgroundColor: '#f9f9f9',
-    width: '100%',
-    paddingHorizontal: 10,
+    width: '80%',
+    marginLeft: 20,
+    marginRight: 20,
+    paddingHorizontal: "auto",
     marginBottom: 15,
     maxHeight: 40,
     maxWidth: 350,
@@ -86,12 +87,14 @@ const styles = StyleSheet.create({
   input: {
     flex: 1,
     height: 40,
+    marginLeft: 10,
+    marginRight: 10,
   },
   iconContainer: {
     padding: 5,
   },
   button: {
-    backgroundColor: '#FF0000', // Rojo DHL
+    backgroundColor: '#FF0000',
     paddingVertical: 10,
     paddingHorizontal: 20,
     borderRadius: 5,
